@@ -3,12 +3,15 @@
 <head>
     <title>Shravya Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
+    <div id="particles-js"></div>
 
     <nav>
-    <h2>Shravya.</h2>
+    <h2>Welcome!</h2>
 
     <ul>
         <li><a href="#about">About</a></li>
@@ -32,12 +35,15 @@
             Full Stack Development, and intelligent applications.
         </p>
 
-        <a href="resume.pdf" download>
-    <button>Download Resume</button>
+        <div class="buttons">
+    <a href="resume.pdf" download>
+        <button>Download Resume</button>
+    </a>
+
     <a href="#contact">
-    <button>Hire Me</button>
-</a>
-</a>
+        <button>Hire Me</button>
+    </a>
+</div>
     </div>
 
     <div class="image">
@@ -45,6 +51,24 @@
     </div>
 
 </section>
+<div class="stats">
+
+    <div class="stat-card">
+        <h2>3+</h2>
+        <p>Projects</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>4+</h2>
+        <p>Certifications</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>1</h2>
+        <p>Internship</p>
+    </div>
+
+</div>
 <section id="about" class="about">
 
     <h1>About Me</h1>
@@ -58,7 +82,37 @@
 
         I enjoy learning new technologies and solving
         challenging problems.
+         I have experience in Python, HTML, CSS, JavaScript,
+        MongoDB, and Generative AI technologies. I enjoy building
+        real-world applications that solve practical problems and
+        improve user experiences.
     </p>
+
+</section>
+<section class="projects">
+
+    <h1>What I Do</h1>
+
+    <div class="project-card">
+        <h2>Full Stack Developer</h2>
+        <p>
+            Build responsive websites using HTML, CSS, JavaScript, Python, and databases.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <h2>Artificial Intelligence</h2>
+        <p>
+            Develop AI applications and machine learning projects.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <h2>Problem Solving</h2>
+        <p>
+            Solve programming problems and improve logical thinking.
+        </p>
+    </div>
 
 </section>
 <section id="skills" class="skills">
@@ -67,18 +121,50 @@
 
     <div class="skill-container">
 
-        <div class="skill-card">Python</div>
-        <div class="skill-card">HTML</div>
-        <div class="skill-card">CSS</div>
-        <div class="skill-card">JavaScript</div>
-        <div class="skill-card">MongoDB</div>
-        <div class="skill-card">DSA</div>
-        <div class="skill-card">AI Tools</div>
-        <div class="skill-card">Generative AI</div>
+        <div class="skill-card">
+            <i class="fa-brands fa-python"></i>
+            <p>Python</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-html5"></i>
+            <p>HTML</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <p>CSS</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-brands fa-js"></i>
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-database"></i>
+            <p>MongoDB</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-code"></i>
+            <p>DSA</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-robot"></i>
+            <p>AI Tools</p>
+        </div>
+
+        <div class="skill-card">
+            <i class="fa-solid fa-brain"></i>
+            <p>Generative AI</p>
+        </div>
 
     </div>
 
 </section>
+
 <section id="projects" class="projects">
 
     <h1>Projects</h1>
@@ -196,30 +282,75 @@
 
     <h1>Contact Me</h1>
 
-    <p>📧 shravyasp.cse@skit.org.in</p>
-
-    <p>📱 +91 7892175419</p>
+    <p>
+        <i class="fa-solid fa-envelope"></i>
+        shravyasp.cse@skit.org.in
+    </p>
 
     <p>
-    💻
-    <a href="https://github.com/SHRAVYASP" target="_blank">
-        GitHub
-    </a>
-</p>
-<p>
-    🔗
-    <a href="https://www.linkedin.com/in/shravya-sp-961b062a1" target="_blank">
-        LinkedIn
-    </a>
-</p>
+        <i class="fa-solid fa-phone"></i>
+        +91 7892175419
+    </p>
 
-    <p>📍 Bangalore, Karnataka</p>
+    <p>
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/SHRAVYASP"
+        target="_blank">
+        GitHub
+        </a>
+    </p>
+
+    <p>
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/shravya-s-p-3a0b1b1b9"
+        target="_blank">
+        LinkedIn
+        </a>
+    </p>
+
+    <form>
+
+        <input type="text"
+        placeholder="Your Name"
+        required>
+
+        <input type="email"
+        placeholder="Your Email"
+        required>
+
+        <textarea
+        placeholder="Your Message"
+        required></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
 
 </section>
-
 <footer>
-    <p>© 2026 Shravya S P | Built with HTML, CSS & JavaScript</p>
+    © 2026 Shravya S P | Portfolio
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 70 },
+    color: { value: "#00E5FF" },
+    size: { value: 3 },
+    move: { speed: 2 },
+    line_linked: {
+      enable: true,
+      color: "#7C3AED"
+    }
+  }
+});
+</script>
+
+<script src="script.js"></script>
 
 </body>
 </html>
