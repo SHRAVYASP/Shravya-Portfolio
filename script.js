@@ -40,3 +40,47 @@ window.onload = function () {
 
     type();
 };
+ScrollReveal().reveal('.hero', {
+    distance: '80px',
+    duration: 2000,
+    origin: 'left'
+});
+
+ScrollReveal().reveal('.stats', {
+    distance: '50px',
+    duration: 1500,
+    origin: 'bottom'
+});
+
+ScrollReveal().reveal('.about', {
+    distance: '80px',
+    duration: 2000,
+    origin: 'bottom'
+});
+
+ScrollReveal().reveal('.skill-card', {
+    distance: '80px',
+    duration: 1500,
+    origin: 'bottom',
+    interval: 200
+});
+
+ScrollReveal().reveal('.projects', {
+    distance: '80px',
+    duration: 2000,
+    origin: 'left'
+});
+
+ScrollReveal().reveal('.education, .internship, .certifications, .contact', {
+    distance: '80px',
+    duration: 2000,
+    origin: 'bottom'
+});
+ScrollReveal().reveal('.work-card', {
+    distance: '80px',
+    duration: 1500,
+    origin: 'bottom',
+    interval: 200
+});
+
+    
